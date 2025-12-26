@@ -1506,7 +1506,7 @@ D. UART (TTL)
     // --- MAIN ---
     try {
         allQuestions = parseData(rawData);
-        currentQuiz = getBalancedQuiz(allQuestions, 50);
+        currentQuiz = getBalancedQuiz(allQuestions, 20);
         renderQuiz();
     } catch (e) {
         console.error(e);
